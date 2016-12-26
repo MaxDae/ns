@@ -1,0 +1,34 @@
+{
+	"class": "org.openqa.grid.common.RegistrationRequest",
+	"capabilities":
+		[
+		  {
+			"seleniumProtocol": "WebDriver",
+			"browserName": "firefox",
+			"maxInstances": 4,
+			"platform": "WINDOWS"
+		  },
+          {
+            "seleniumProtocol": "WebDriver",
+            "browserName": "chrome",
+        "maxInstances": 4,
+        "platform": "ANY"
+
+    }
+		],
+	"configuration":
+	{
+	  "port": 5555,
+	  "register": true,
+	  "maxSession": 4,
+	  "hubHost": "127.0.0.1",
+	  "registerCycle": 5000,
+	  "hub": "",
+	  "hubPort": 4444
+	}
+}
+	
+	  
+	  
+	  
+	  
