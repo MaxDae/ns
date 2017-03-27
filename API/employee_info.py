@@ -96,16 +96,7 @@ class clientData(object):
 
 
     """
-    #def getPostedSchedules(self):
-
-
-
-
-#cd = clientData("autoTestUser", "testpassword123", server_url)
-
-#print cd.getClientEmployeesNames()
-#print cd.getEmployeeSchedules(17356254)
-#print cd.get_schedules()
+  
 env = next(x for x in os.environ['PYTHONPATH'].split(';') if 'new_scheduler_tests' in x)
 #env.index('new_scheduler_tests')
 print env
